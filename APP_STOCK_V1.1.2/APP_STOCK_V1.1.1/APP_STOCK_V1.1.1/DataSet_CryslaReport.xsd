@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet_CryslaReport" targetNamespace="http://tempuri.org/DataSet_CryslaReport.xsd" xmlns:mstns="http://tempuri.org/DataSet_CryslaReport.xsd" xmlns="http://tempuri.org/DataSet_CryslaReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="IH_BASEConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="IH_BASEConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.APP_STOCK_V1._1._1.Properties.Settings.GlobalReference.Default.IH_BASEConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet_CryslaReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet_CryslaReport" msprop:Generator_UserDSName="DataSet_CryslaReport">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="disg" msprop:Generator_ColumnVarNameInTable="columndisg" msprop:Generator_ColumnPropNameInRow="disg" msprop:Generator_ColumnPropNameInTable="disgColumn" msprop:Generator_UserColumnName="disg" type="xs:string" minOccurs="0" />
+              <xs:element name="categore" msprop:Generator_ColumnVarNameInTable="columncategore" msprop:Generator_ColumnPropNameInRow="categore" msprop:Generator_ColumnPropNameInTable="categoreColumn" msprop:Generator_UserColumnName="categore" type="xs:string" minOccurs="0" />
+              <xs:element name="qttInit" msprop:Generator_ColumnVarNameInTable="columnqttInit" msprop:Generator_ColumnPropNameInRow="qttInit" msprop:Generator_ColumnPropNameInTable="qttInitColumn" msprop:Generator_UserColumnName="qttInit" type="xs:int" minOccurs="0" />
+              <xs:element name="qttReel" msprop:Generator_ColumnVarNameInTable="columnqttReel" msprop:Generator_ColumnPropNameInRow="qttReel" msprop:Generator_ColumnPropNameInTable="qttReelColumn" msprop:Generator_UserColumnName="qttReel" type="xs:int" minOccurs="0" />
+              <xs:element name="qttSort" msprop:Generator_ColumnVarNameInTable="columnqttSort" msprop:Generator_ColumnPropNameInRow="qttSort" msprop:Generator_ColumnPropNameInTable="qttSortColumn" msprop:Generator_UserColumnName="qttSort" type="xs:int" minOccurs="0" />
+              <xs:element name="qttEntr" msprop:Generator_ColumnVarNameInTable="columnqttEntr" msprop:Generator_ColumnPropNameInRow="qttEntr" msprop:Generator_ColumnPropNameInTable="qttEntrColumn" msprop:Generator_UserColumnName="qttEntr" type="xs:int" minOccurs="0" />
+              <xs:element name="emplacem" msprop:Generator_ColumnVarNameInTable="columnemplacem" msprop:Generator_ColumnPropNameInRow="emplacem" msprop:Generator_ColumnPropNameInTable="emplacemColumn" msprop:Generator_UserColumnName="emplacem" type="xs:string" minOccurs="0" />
+              <xs:element name="descrep" msprop:Generator_ColumnVarNameInTable="columndescrep" msprop:Generator_ColumnPropNameInRow="descrep" msprop:Generator_ColumnPropNameInTable="descrepColumn" msprop:Generator_UserColumnName="descrep" type="xs:string" minOccurs="0" />
+              <xs:element name="image_" msprop:Generator_ColumnVarNameInTable="columnimage_" msprop:Generator_ColumnPropNameInRow="image_" msprop:Generator_ColumnPropNameInTable="image_Column" msprop:Generator_UserColumnName="image_" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="qttStock" msprop:Generator_ColumnVarNameInTable="columnqttStock" msprop:Generator_ColumnPropNameInRow="qttStock" msprop:Generator_ColumnPropNameInTable="qttStockColumn" msprop:Generator_UserColumnName="qttStock" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="DataTable1Key1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable1" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

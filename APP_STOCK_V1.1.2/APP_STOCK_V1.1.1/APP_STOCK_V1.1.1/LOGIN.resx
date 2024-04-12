@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textbox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="textbox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 166</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textbox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="textbox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 44</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textbox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textbox1.Name" xml:space="preserve">
+    <value>textbox1</value>
+  </data>
+  <data name="&gt;&gt;textbox1.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuMaterialTextbox, Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;textbox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textbox1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textBox_motdePasse.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="textBox_motdePasse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 233</value>
+  </data>
+  <data name="textBox_motdePasse.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="textBox_motdePasse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 44</value>
+  </data>
+  <data name="textBox_motdePasse.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBox_motdePasse.Name" xml:space="preserve">
+    <value>textBox_motdePasse</value>
+  </data>
+  <data name="&gt;&gt;textBox_motdePasse.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuMaterialTextbox, Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;textBox_motdePasse.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_motdePasse.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="bunifuImageButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bunifuImageButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 57</value>
+  </data>
+  <data name="bunifuImageButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 85</value>
+  </data>
+  <data name="bunifuImageButton1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="bunifuImageButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;bunifuImageButton1.Name" xml:space="preserve">
+    <value>bunifuImageButton1</value>
+  </data>
+  <data name="&gt;&gt;bunifuImageButton1.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuImageButton, Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuImageButton1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bunifuImageButton1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="button1_CNX.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAALUAAAApCAYAAABz92iRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKVSURBVHhe7ZzLaxNRHEb9i1yIIG2mM0lqEwsqPgghJqPp
+        osWCKL5ALFgqQmvHKOpCKCJFcKFUEVyIEkHFutBFkeKDLioIWaiIIl0UXXz6TcapIWOXNvfyHThQmKSr
+        k+HOTX53XTqdhpQ2qaildSpqaZ2KWlqnopbWqailda4atZfNoHvPFrgjJXhnfHQFPtYHRSn/u2yPDXqj
+        ZXRV+uH1ZRKbpf+MOlXIIVXbhwM3x3H/7SxefniNxrdPEGItYHts8NHCCxy7U4Nzvoqe6rbEdtuiDj8B
+        J0vwp0fweelr9C+F6Cy+Ly/hyEwA77QPN59tabglagbtBQOYmatHbxWis3m2OIfchSG4/b3JUfMOraCF
+        aXBZwvV2W9RcQ3PJIYSJTDy8Bnd450rU3OXgQ6HW0MJUln/+QP7yMHq2bm5GzS0SPlEKYTJTs7fhHNwV
+        3alHy+FWiRAm8+7jezgTe5tRp876WPzSiC4JYSZcgmw4V2pGvTEoh/t+QpgOv30Mo+YfQtiAohbWoaiF
+        dShqYR2KWliHohbWoaiFdShqYR1x1PwWht/GCGE6cdSc/9KolrCBOGqOxHCCQAiT4e+X+DumMOrU0HZM
+        1qejS0KYyd35x3BPRHdqznf1XhzUuloYzeCNMXQX882oQw8VUKtfjy4LYRb35p8gc6rSOqPIka7seBWv
+        GgvRy4QwA44herWB+ICblTv1bznflbu0XwMDwhgYdGHqKJzdubjjlqips6MvPPvjytNb0duE6EwevHke
+        3qH/Dpq2RU25FPEOF1C8ejx8otSUuegUOKHFY/B4HF5mzE88Uy8x6j/yE8Atkk1BJdzUlnKt5eghDyzl
+        waVJzdJVo5bSRBW1tE5FLa1TUUvrVNTSMtP4BbBTAchu5BcpAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="button1_CNX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
+  <data name="button1_CNX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 305</value>
+  </data>
+  <data name="button1_CNX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="button1_CNX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 41</value>
+  </data>
+  <data name="button1_CNX.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;button1_CNX.Name" xml:space="preserve">
+    <value>button1_CNX</value>
+  </data>
+  <data name="&gt;&gt;button1_CNX.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuThinButton2, Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;button1_CNX.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1_CNX.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="bunifuThinButton_close.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADEAAAAkCAYAAAAgh9I0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHTSURBVFhH7Zi/S0JRFIBFREREREScRJxERERERETe1NTU
+        1NTU1NTU1NTU39DU0t/Q1NTU1NTU1NTU1NR04jtyH+9dn7aUnhdv+OD9OHrv5z333nPNBUEgaSeTsEIm
+        YYX/L3GwXMpVvy8PzaY812ryXiqJ5HI7gbZo87HRkOteTw4Xi8Q+wkaJi+FQvwgBRM5HIzmezRJj/wLa
+        os3LwUDuWy3tCzJJsWsSGPOhp3pdjubz2Lt9sq1fMQkCXyuVjcYWIENeqtVYVsQkMLUs4CDNmC/uPpTA
+        kKFy99a5a7flptvVa5VgFWLiWJoDP0GfSf2T6XQlQQqRSn6gdRgJRkQlWItZyvwg65xOJjoaKvFWLuuw
+        +EHWIaW+8vmVxGehsHVHtAy7u0pw4b9MC5mEFUIJJgeTxA9IA6EEG90uK9TfJJSg3KDs8AOsw7bA9qAS
+        bufzg6zjKg2VIJUwStu8cJWGSsBtp6NEgyzjjs1chxKMAjX62XgcC7YI1TaZ46qMUAKYKK68jT63BAL8
+        2ByM3LOYBDASiLgDhyXIf0YgKgBrEkBqsVphzAqwz8MSKePyn4mcVKgmSjgwZgn7KBZ1U9kHVNjub6Ok
+        PsJWibSQSVghk7BBIN+dyyX0+EKYmQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuThinButton_close.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="bunifuThinButton_close.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
+  <data name="bunifuThinButton_close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 3</value>
+  </data>
+  <data name="bunifuThinButton_close.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>50, 20, 50, 20</value>
+  </data>
+  <data name="bunifuThinButton_close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 36</value>
+  </data>
+  <data name="bunifuThinButton_close.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;bunifuThinButton_close.Name" xml:space="preserve">
+    <value>bunifuThinButton_close</value>
+  </data>
+  <data name="&gt;&gt;bunifuThinButton_close.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuThinButton2, Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuThinButton_close.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bunifuThinButton_close.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="bunifuGradientPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, -5</value>
+  </data>
+  <data name="bunifuGradientPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 44</value>
+  </data>
+  <data name="bunifuGradientPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel1.Name" xml:space="preserve">
+    <value>bunifuGradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10, 34</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 10</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="button_visiteur.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAALUAAAApCAYAAABz92iRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKVSURBVHhe7ZzLaxNRHEb9i1yIIG2mM0lqEwsqPgghJqPp
+        osWCKL5ALFgqQmvHKOpCKCJFcKFUEVyIEkHFutBFkeKDLioIWaiIIl0UXXz6TcapIWOXNvfyHThQmKSr
+        k+HOTX53XTqdhpQ2qaildSpqaZ2KWlqnopbWqailda4atZfNoHvPFrgjJXhnfHQFPtYHRSn/u2yPDXqj
+        ZXRV+uH1ZRKbpf+MOlXIIVXbhwM3x3H/7SxefniNxrdPEGItYHts8NHCCxy7U4Nzvoqe6rbEdtuiDj8B
+        J0vwp0fweelr9C+F6Cy+Ly/hyEwA77QPN59tabglagbtBQOYmatHbxWis3m2OIfchSG4/b3JUfMOraCF
+        aXBZwvV2W9RcQ3PJIYSJTDy8Bnd450rU3OXgQ6HW0MJUln/+QP7yMHq2bm5GzS0SPlEKYTJTs7fhHNwV
+        3alHy+FWiRAm8+7jezgTe5tRp876WPzSiC4JYSZcgmw4V2pGvTEoh/t+QpgOv30Mo+YfQtiAohbWoaiF
+        dShqYR2KWliHohbWoaiFdShqYR1x1PwWht/GCGE6cdSc/9KolrCBOGqOxHCCQAiT4e+X+DumMOrU0HZM
+        1qejS0KYyd35x3BPRHdqznf1XhzUuloYzeCNMXQX882oQw8VUKtfjy4LYRb35p8gc6rSOqPIka7seBWv
+        GgvRy4QwA44herWB+ICblTv1bznflbu0XwMDwhgYdGHqKJzdubjjlqips6MvPPvjytNb0duE6EwevHke
+        3qH/Dpq2RU25FPEOF1C8ejx8otSUuegUOKHFY/B4HF5mzE88Uy8x6j/yE8Atkk1BJdzUlnKt5eghDyzl
+        waVJzdJVo5bSRBW1tE5FLa1TUUvrVNTSMtP4BbBTAchu5BcpAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="button_visiteur.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
+  <data name="button_visiteur.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 356</value>
+  </data>
+  <data name="button_visiteur.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="button_visiteur.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 41</value>
+  </data>
+  <data name="button_visiteur.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;button_visiteur.Name" xml:space="preserve">
+    <value>button_visiteur</value>
+  </data>
+  <data name="&gt;&gt;button_visiteur.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuThinButton2, Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;button_visiteur.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_visiteur.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>321, 430</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>LOGIN</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>LOGIN</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
